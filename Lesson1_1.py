@@ -4,4 +4,3 @@ print(text1)
 words = text.split( )
 text2 = '-'.join(words)
 print(text2)
-
