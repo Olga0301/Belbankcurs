@@ -1,4 +1,4 @@
-text = 'My name is Olga'
+text = input('Введите текст:  ')
 text1 = text.replace(' ', '-')
 print(text1)
 words = text.split( )

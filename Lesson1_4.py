@@ -1,11 +1,5 @@
-a = 2
-b = -1
-c = -3
-summ_p = 0
-if a > 0:
-    summ_p = summ_p + 1
-if b > 0:
-    summ_p = summ_p + 1
-if c > 0:
-    summ_p = summ_p + 1
-print(f'Количество положительных чисел {summ_p}, количество отрицательных чисел {3-summ_p}')
+a = int(input('Введите число a = '))
+b = int(input('Введите число b = '))
+c = int(input('Введите число c = '))
+count_pol = f'{a > 0}, {b > 0}, {c > 0}'
+print('Количество положительных чисел ', count_pol.count('True'), 'Количество отрицательных чисел ', count_pol.count('False'))
